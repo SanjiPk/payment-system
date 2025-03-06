@@ -5,11 +5,11 @@
 هر مشتری میتواند به سه نوع روش مبلغ مورد نظر خود را پرداخت بکند.
 
 برای اجرای پروژه ابتدا مخزن آن را با دستور زیر کلون بکنید :
-'''
+'''bash
 git clone https://github.com/SanjiPk/payment-system.git
 '''
 سپس کد را با دستور javac کامپایل کرده و اجرا کنید :
-'''
+'''bash
 javac -d bin -sourcepath src src/Main.java
 java -cp bin Main
 '''

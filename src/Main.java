@@ -28,7 +28,9 @@ public class Main {
         mickel.makePayment(bitCoin, 1000000000);
 
         for (Customer c : customerList) {
+            System.out.println();
             c.displayCustomerInfo();
+            System.out.println();
             c.showPaymentHistory();
         }
     }

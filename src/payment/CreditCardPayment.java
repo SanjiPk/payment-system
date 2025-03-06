@@ -12,12 +12,12 @@ public class CreditCardPayment implements IPaymentStrategy{
 
     @Override
     public void pay(double amount) {
-        System.out.println(getPaymentDetails() + String.valueOf(amount));
+        System.out.println(getPaymentDetails() + "Amount : " + String.valueOf(amount));
     }
 
     @Override
     public String getPaymentDetails() {
         return String.format("creditcard payment with cardNumber : %s%n" + 
-                            "card HolderName : %n", cardNumber, cardHolderName);
+                            "card HolderName : %s%n", cardNumber, cardHolderName);
     }
 }
